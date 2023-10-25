@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"os/signal"
-)
+import	"fmt"
+
 
 func main(){
 
