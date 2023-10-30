@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-//	"time"
-)
+import 	"fmt"
 
 // Calcular precio
 // Una empresa nacional se encarga de realizar venta de productos, servicios y mantenimiento. Para ello requieren realizar un programa que se 
@@ -87,6 +84,6 @@ func main() {
 
 	var finalMount float64
 	finalMount = <-pch + <-sch + <-mch
-	//fmt.Printf("Total Price is: \n -Products \t $ %f \n -Services \t $ %f \n -Maintenances \t $ %f \n The total is: $ %f", pch,sch,mch,finalMount)
+	// fmt.Printf("Total Price is: \n -Products \t $ %v \n -Services \t $ %v \n -Maintenances \t $ %v \n The total is: $ %f", pch,sch,mch,finalMount)
 	fmt.Printf("Total Price is: $ %f", finalMount)
 }
